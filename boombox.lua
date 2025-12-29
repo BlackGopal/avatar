@@ -1,5 +1,4 @@
---// Boombox Client UI (by kuli komis x ChatGPT)
--- Tidak perlu ubah script server!
+--// Boombox Client UI (by kuli komis)
 
 local tool = script.Parent
 local remote = tool:WaitForChild("Remote")
@@ -187,4 +186,5 @@ end)
 tool.Unequipped:Connect(function()
     screenGui.Enabled = false
 end)
+
 
